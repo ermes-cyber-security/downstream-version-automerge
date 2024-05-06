@@ -75,7 +75,7 @@ async function merge(source, target, config) {
       commit_message: commitMessage
     });
   } catch (e) {
-    // console.log(`merge failed: ${e.message}`);
+    console.log(`merge failed: ${e.message}`);
     result = false;
   }
 
@@ -107,7 +107,7 @@ async function mergeRequest(source, target, config) {
       title: prTitle
     });
   } catch (e) {
-    // console.log(`merge failed: ${e.message}\n\nPR created instead`);
+    console.log(`PR creation failed: ${e.message}`);
     result = false;
   }
 
