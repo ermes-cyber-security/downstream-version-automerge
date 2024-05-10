@@ -115,7 +115,7 @@ jobs:
     name: version automerge
     steps:
       - id: downstream
-        uses: maikuru/downstream-version-automerge@v1
+        uses: ermes-cyber-security/downstream-version-automerge@production
         with:
           production-branch: 'master'
           development-branch: 'develop'
