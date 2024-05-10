@@ -1,6 +1,6 @@
 {
   "name": "downstream-version-automerge",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "Version based auto merging",
   "keywords": [
     "GitHub",
@@ -11,12 +11,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maikuru/downstream-version-automerge.git"
+    "url": "git+https://github.com/ermes-cyber-security/downstream-version-automerge.git"
   },
   "bugs": {
-    "url": "https://github.com/maikuru/downstream-version-automerge/issues"
+    "url": "https://github.com/ermes-cyber-security/downstream-version-automerge/issues"
   },
-  "homepage": "https://github.com/maikuru/downstream-version-automerge#readme",
+  "homepage": "https://github.com/ermes-cyber-security/downstream-version-automerge#readme",
   "author": "Michael Lodge-Paolini <michael.lodge-paolini@wexinc.com>",
   "license": "MIT",
   "private": true,
